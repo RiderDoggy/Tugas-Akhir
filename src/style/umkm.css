@@ -1,0 +1,21 @@
+/* UMKM */
+.umkm-container{
+    max-width: 100%;
+  }
+  .umkm-image{
+    width: 200px;
+    /* aspect-ratio: 1/3;*/
+    height: 200px;
+    object-fit: contain;
+  }
+  .umkmCard-wrapper{
+    box-shadow: 2px 4px  2px rgba(0, 0, 0, .25);
+    border-radius: 20px;
+    flex-direction: row;
+    background-color: #F0E8EB;
+  }
+  .umkmCard-body{
+    border-radius: 20px;
+    background-color: #fff;
+  }
+  /* End UMKM */

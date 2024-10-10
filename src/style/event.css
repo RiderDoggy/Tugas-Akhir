@@ -1,0 +1,52 @@
+/* Event */
+.event-title{
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 600;
+  
+}
+.event-title::after{
+  content: '';
+  display: block;
+  width: 75px;
+  margin: auto;
+  margin-top: 10px;
+  border-bottom: 5px solid #045E18;
+}
+
+
+.event-image {
+  object-fit:cover;
+  height: 200px;
+  background: no-repeat transparent;
+  border: none;
+}
+
+.event-card {
+  height: 350px;
+  padding: 10px;
+  text-align: justify;
+  border-radius: 5px;
+  border-radius: 20px;
+  background: linear-gradient(315deg, #dddddd, #ffffff);
+}
+
+.event-wrapper {
+  width: 100%;
+  background-color: #CCDBCC;
+  padding-bottom: 50px;
+}
+
+.event-more-btn{
+  max-width: fit-content;
+  border-radius: 32px;
+  text-align: center;
+}
+
+.eventName{
+  cursor: pointer;
+}
+.eventName:hover{
+  color: #045E18;
+}
+/* End Event */

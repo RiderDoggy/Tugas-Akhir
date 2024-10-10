@@ -1,0 +1,26 @@
+.postImage{
+    width: 350px;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.postParagraph{
+    text-align: justify;
+    margin: 20px;
+    padding: 5px;
+}
+
+.postTitle{
+    padding-top: 50px;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 772px) {
+    .postImage{
+        width: 250px;
+
+    }
+  }

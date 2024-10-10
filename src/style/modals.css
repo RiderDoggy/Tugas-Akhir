@@ -1,0 +1,26 @@
+.modalsImage{
+    max-width: 75%;
+    height: 340px;
+    object-fit: scale-down;
+    margin: auto;
+    justify-content: center;
+    display: block;
+}
+
+.modalsDescription p{
+    text-align: justify;
+}
+
+@media only screen and (max-width: 1200px){
+    .modalsContent{
+        max-width: 100%;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 576px){
+    .modalsImage{
+        height: 300px;
+        width: 250px;
+    }
+}
